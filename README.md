@@ -1,27 +1,28 @@
-# package_name
+# mathhelper
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Descrição
+O pacote **mathhelper** é usado para:
 
-## Installation
+- Realizar operações aritméticas básicas (adição, subtração, etc.)
+- Calcular operações avançadas (potência, fatorial, etc.)
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+## Instalação
+
+Use o gerenciador de pacotes **pip** para instalar `mathhelper`.
 
 ```bash
-pip install package_name
+pip install mathhelper
 ```
 
-## Usage
+## Uso
 
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
+from mathhelper import basic_operations
+print(basic_operations.add(2, 3))
+
+from mathhelper import advanced_operations
+print(advanced_operations.factorial(5))
 ```
 
 ## Author
-My_name
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+José Roberto
